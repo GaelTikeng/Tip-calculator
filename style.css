@@ -14,7 +14,6 @@ body {
   padding: 10px 0;
   margin: 20px auto;
   background-color: #3a8fe49f;
-  
   background: linear-gradient(115deg, #e2dddd4d, #ebe8e286), url("https://m.media-amazon.com/images/I/61ulobLUdbL.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,4 +44,10 @@ body {
   font-size: 25px;
   width: 80%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .maincontainer {
+    width: 94%;
+  }
 }
