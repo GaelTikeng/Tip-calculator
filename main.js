@@ -11,3 +11,4 @@ function calculatePercentage() {
     document.querySelector('.display').innerHTML = `The TIP is ${x} FCFA`
   }
 }
+
